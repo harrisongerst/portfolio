@@ -11,8 +11,8 @@ export default function Header() {
           <Navbar.Menu>
             <Navbar.Container>
             <Navbar.Item> <Link to="/about">  About </Link></Navbar.Item>
-            <Navbar.Item> Projects </Navbar.Item>
-            <Navbar.Item> Contact </Navbar.Item>
+            <Navbar.Item> <Link to="/projects">  Projects </Link> </Navbar.Item>
+            <Navbar.Item> <Link to="/contact">  Contact </Link> </Navbar.Item>
             </Navbar.Container>
             <Navbar.Container align="end"><Navbar.Item> Resume </Navbar.Item></Navbar.Container>
             </Navbar.Menu>
