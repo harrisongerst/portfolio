@@ -6,7 +6,15 @@ export default function Header() {
   return (
     <div>
         <Navbar>
-            <Navbar.Item> Check </Navbar.Item>
+          <Navbar.Brand><Navbar.Item><img alt="hg logo" height="36" width="36" src="https://i.imgur.com/L4YX6N2.png"/></Navbar.Item></Navbar.Brand>
+          <Navbar.Menu>
+            <Navbar.Container>
+            <Navbar.Item> About </Navbar.Item>
+            <Navbar.Item> Projects </Navbar.Item>
+            <Navbar.Item> Contact </Navbar.Item>
+            </Navbar.Container>
+            <Navbar.Container align="end"><Navbar.Item> Resume </Navbar.Item></Navbar.Container>
+            </Navbar.Menu>
         </Navbar>
     </div>
   )
