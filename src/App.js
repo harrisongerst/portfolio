@@ -1,4 +1,5 @@
 import 'bulma/css/bulma.min.css';
+import './App.css'
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
