@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
-import {Card, Media, Section, Content, Heading, Image } from 'react-bulma-components'
+import {Card, Media, Content, Heading } from 'react-bulma-components'
 
 export default function Projects() {
   return (
