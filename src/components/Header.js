@@ -2,6 +2,7 @@ import React from "react";
 import "bulma/css/bulma.min.css";
 import { Navbar } from "react-bulma-components";
 import { Link } from "react-router-dom";
+import Resume from '../media/HarrisonGerstenlauerResume2022.pdf'
 
 export default function Header() {
   return (
@@ -30,7 +31,7 @@ export default function Header() {
             <Navbar.Item>
               <Link to="/contact"> Contact </Link>
             </Navbar.Item>
-            <Navbar.Item> Resume </Navbar.Item>
+            <Navbar.Item> <Link to={Resume} target="_blank" rel="noopener noreferrer" >Resume</Link> </Navbar.Item>
           </Navbar.Container>
         </Navbar.Menu>
       </Navbar>
