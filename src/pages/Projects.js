@@ -29,9 +29,9 @@ export default function Projects() {
     <Card.Content>
       <Media>
         <Media.Item>
-          <Heading size={4}>A second project</Heading>
+          <Heading size={4}>Your Next Read</Heading>
           <Heading subtitle size={6}>
-            Built with Node.js, React, Express, MongoDB, and BCrypt
+            Built with Node.js, React, Styled-Components, and the Google Books API
           </Heading>
         </Media.Item>
       </Media>
@@ -40,8 +40,7 @@ export default function Projects() {
       </Content>
     </Card.Content>
     <Card.Footer>
-        <Card.Footer.Item renderAs="a" href="https://github.com/harrisongerst/brewSchool-frontend">Github</Card.Footer.Item>
-        <Card.Footer.Item renderAs="a" href="https://dev--brew-school.netlify.app/">Live</Card.Footer.Item>
+        <Card.Footer.Item renderAs="a" href="https://github.com/harrisongerst/your-next-read">Github</Card.Footer.Item>
     </Card.Footer>
   </Card>
     </div>
