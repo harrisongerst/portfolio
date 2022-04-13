@@ -7,6 +7,7 @@ export default function Projects() {
     <div>
       <Header/>
       <Card>
+        <Card.Image size="3by1" src="https://i.imgur.com/MsubQMP.png"/>
     <Card.Content>
       <Media>
         <Media.Item>
@@ -17,7 +18,7 @@ export default function Projects() {
         </Media.Item>
       </Media>
       <Content>
-       And here is where I will add an image above and a short description of the project{' '}
+       Brew School is a fullstack web application that allows users to sign up for an account and share different techniques for brewing coffee with a variety of different brewers.{' '}
       </Content>
     </Card.Content>
     <Card.Footer>
