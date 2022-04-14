@@ -1,15 +1,12 @@
 import React from 'react';
 import Header from '../components/Header';
-import {Container, Section, Content, Button, Link} from "react-bulma-components";
+import {Container, Section, Content} from "react-bulma-components";
 
 export default function Contact() {
   const sectionStyle = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center'
-  }
-  const linkStyle = {
-    color: "white"
   }
   return (
     <div>
